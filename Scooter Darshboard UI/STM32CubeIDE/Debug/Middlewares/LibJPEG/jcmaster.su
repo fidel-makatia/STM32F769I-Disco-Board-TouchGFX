@@ -1,0 +1,8 @@
+jcmaster.c:358:1:validate_script	2664	static
+jcmaster.c:528:1:select_scan_parameters	24	static
+jcmaster.c:753:1:pass_startup	8	static
+jcmaster.c:767:1:finish_pass_master	16	static
+jcmaster.c:572:1:per_scan_setup	24	static
+jcmaster.c:665:1:prepare_for_pass	16	static
+jcmaster.c:53:1:jpeg_calc_jpeg_dimensions	16	static
+jcmaster.c:807:1:jinit_c_master_control	56	static

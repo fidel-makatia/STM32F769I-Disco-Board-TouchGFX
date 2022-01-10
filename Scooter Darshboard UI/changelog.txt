@@ -1,0 +1,14 @@
+3.0.6
+- Upgraded to TouchGFX 4.18.0
+- Updated the Makefil to use texts.xml instead of texts.xlsx
+- Removed generation of .bin files for the external flash section
+- Added Video support
+
+3.0.5
+- Upgraded to STM32CubeMX 6.3.0
+
+3.0.4
+- Upgraded to TouchGFX 4.17.0
+- Upgraded to STM32CubeMX 6.2.1
+- Upgraded to Firmware Package FW_F7 1.16.1
+- Added DefaultTask to allow IP integration out of STM32CubeMX

@@ -1,0 +1,29 @@
+Drawable.hpp:132:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:298:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:310:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:339:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:351:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:361:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:372:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:383:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:471:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:481:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:568:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Drawable.hpp:683:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	0	static
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Widget.hpp:47:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+View.hpp:36:7:touchgfx::View<Screen2Presenter>::~View()	0	static
+Screen2ViewBase.hpp:17:13:Screen2ViewBase::~Screen2ViewBase()	0	static
+Screen2ViewBase.cpp:28:6:virtual void Screen2ViewBase::setupScreen()	0	static
+Screen2ViewBase.cpp:50:6:virtual void Screen2ViewBase::afterTransition()	0	static
+View.hpp:36:7:virtual touchgfx::View<Screen2Presenter>::~View()	8	static
+Screen2ViewBase.hpp:17:13:virtual Screen2ViewBase::~Screen2ViewBase()	8	static
+Screen2ViewBase.cpp:34:6:virtual void Screen2ViewBase::handleTickEvent()	8	static
+Drawable.hpp:326:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:394:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	16	static
+Box.hpp:33:5:touchgfx::Box::Box()	0	static
+Screen2ViewBase.cpp:8:1:Screen2ViewBase::Screen2ViewBase()	40	static

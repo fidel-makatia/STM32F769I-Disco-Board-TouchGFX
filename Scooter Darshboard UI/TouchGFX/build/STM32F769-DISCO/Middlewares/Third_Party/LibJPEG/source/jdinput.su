@@ -1,0 +1,6 @@
+jdinput.c:538:1:finish_input_pass	0	static
+jdinput.c:619:1:reset_input_controller	16	static
+jdinput.c:521:1:start_input_pass	32	static
+jdinput.c:559:1:consume_markers	40	static
+jdinput.c:47:1:jpeg_core_output_dimensions	16	static
+jdinput.c:641:1:jinit_input_controller	8	static

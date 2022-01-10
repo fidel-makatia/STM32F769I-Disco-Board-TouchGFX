@@ -1,0 +1,11 @@
+jquant1.c:460:1:color_quantize	48	static
+jquant1.c:488:1:color_quantize3	32	static
+jquant1.c:566:1:quantize3_ord_dither	72	static
+jquant1.c:723:1:alloc_fs_workspace	24	static
+jquant1.c:799:1:finish_pass_1_quant	0	static
+jquant1.c:811:1:new_color_map_1_quant	0	static
+jquant1.c:611:1:quantize_fs_dither	112	static
+jquant1.c:516:1:quantize_ord_dither	72	static
+jquant1.c:334:1:create_colorindex	32	static
+jquant1.c:742:1:start_pass_1_quant	32	static
+jquant1.c:822:1:jinit_1pass_quantizer	64	static

@@ -1,0 +1,4 @@
+Buttons.cpp:125:17:void BSP_PB_Init(Button_TypeDef, ButtonMode_TypeDef)	32	static
+Buttons.cpp:96:6:static void touchgfx::Buttons::init()	8	static
+Buttons.cpp:167:21:uint32_t BSP_PB_GetState(Button_TypeDef)	8	static
+Buttons.cpp:101:14:static unsigned int touchgfx::Buttons::sample()	8	static

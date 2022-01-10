@@ -1,0 +1,6 @@
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Screen2View.hpp:11:13:Screen2View::~Screen2View()	0	static
+Screen2View.cpp:13:6:virtual void Screen2View::tearDownScreen()	0	static
+Screen2View.cpp:8:6:virtual void Screen2View::setupScreen()	0	static
+Screen2View.hpp:11:13:virtual Screen2View::~Screen2View()	8	static
+Screen2View.cpp:3:1:Screen2View::Screen2View()	8	static

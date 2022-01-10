@@ -1,0 +1,535 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Filename": "controls_background.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge2",
+            "X": 42,
+            "Y": 101,
+            "Width": 220,
+            "Height": 224,
+            "FileNameBackground": "gauge02_background.png",
+            "RotationCenterX": 110,
+            "RotationCenterY": 110,
+            "StartAngle": -130,
+            "EndAngle": 130,
+            "RangeMax": 200,
+            "UseAnimation": true,
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "FileNameNeedle": "gauge02_needle.png",
+            "NeedleRotationCenterX": 13,
+            "NeedleRotationCenterY": 50,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "ArcCapStyle": "Butt"
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge1",
+            "X": 512,
+            "Y": 101,
+            "Width": 274,
+            "Height": 251,
+            "FileNameBackground": "value_indicator_wheel.png",
+            "RotationCenterX": 138,
+            "RotationCenterY": 138,
+            "StartAngle": -130,
+            "EndAngle": 130,
+            "RangeMax": 200,
+            "UseAnimation": true,
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "UseArc": true,
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "SetArcPosition": true,
+            "ArcX": 29,
+            "ArcY": 18,
+            "ArcWidth": 218,
+            "ArcHeight": 201,
+            "ArcRadius": 106,
+            "ArcLineWidth": 5,
+            "ArcCapStyle": "Triangle"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedtxt",
+            "X": 585,
+            "Y": 213,
+            "Width": 129,
+            "Height": 91,
+            "TextId": "__SingleUse_ZC22",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 252,
+              "Blue": 252
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_G1CJ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 622,
+            "Y": 184,
+            "Width": 55,
+            "Height": 25,
+            "TextId": "__SingleUse_KLEX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 240,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 43,
+            "Y": 434,
+            "Width": 29,
+            "Height": 28,
+            "Filename": "bluetooth.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 105,
+            "Y": 12,
+            "Width": 34,
+            "Height": 28,
+            "Filename": "comments.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 42,
+            "Y": 12,
+            "Width": 30,
+            "Height": 28,
+            "Filename": "phones.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage5",
+            "X": 167,
+            "Y": 14,
+            "Width": 35,
+            "Height": 26,
+            "Filename": "signal.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 131,
+            "Y": 226,
+            "Width": 43,
+            "Height": 25,
+            "TextId": "__SingleUse_07ZY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 15,
+              "Green": 14,
+              "Blue": 14
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "rpmtxt",
+            "X": 125,
+            "Y": 245,
+            "Width": 55,
+            "Height": 49,
+            "TextId": "__SingleUse_XYUH",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_5I12",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage6",
+            "X": 276,
+            "Y": 110,
+            "Width": 220,
+            "Height": 260,
+            "Filename": "counter_box.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage7",
+            "X": 698,
+            "Y": -8,
+            "Width": 102,
+            "Height": 75,
+            "Filename": "skuuta-removebg-preview.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "FileName": "backgroundsss.png",
+            "ModalX": 223,
+            "ModalY": 5,
+            "ModalWidth": 466,
+            "ModalHeight": 87,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "close",
+                "X": 324,
+                "Y": 28,
+                "Width": 130,
+                "Height": 56,
+                "Pressed": "close_button_pressed.png",
+                "Released": "close_button.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea3",
+                "X": 75,
+                "Y": 28,
+                "Width": 241,
+                "Height": 49,
+                "TextId": "__SingleUse_XETF",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 247,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ScalableImage",
+                "Name": "scalableImage8",
+                "X": 16,
+                "Y": 21,
+                "Width": 47,
+                "Height": 49,
+                "Filename": "caution.png",
+                "ScalingAlgorithm": "Nearest-neighbor"
+              }
+            ]
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 89,
+            "Y": 434,
+            "Width": 100,
+            "Height": 25,
+            "TextColor": {
+              "Red": 247,
+              "Green": 242,
+              "Blue": 242
+            },
+            "TextId": "__SingleUse_EFMG",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "Image",
+            "Name": "imagecar",
+            "X": 244,
+            "Y": 13,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "car02.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "lefticon",
+            "X": 617,
+            "Y": 8,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "left02.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "righticon",
+            "X": 661,
+            "Y": 8,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "right02.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage9",
+            "X": 285,
+            "Y": 144,
+            "Width": 45,
+            "Height": 31,
+            "Filename": "eco.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 344,
+            "Y": 147,
+            "Width": 42,
+            "Height": 25,
+            "TextId": "__SingleUse_UH5L",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 242,
+              "Green": 237,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage10",
+            "X": 289,
+            "Y": 195,
+            "Width": 36,
+            "Height": 36,
+            "Filename": "icon04.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 344,
+            "Y": 195,
+            "Width": 133,
+            "Height": 25,
+            "TextId": "__SingleUse_5S5P",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 245,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage11",
+            "X": 287,
+            "Y": 251,
+            "Width": 41,
+            "Height": 41,
+            "Filename": "maps.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 344,
+            "Y": 258,
+            "Width": 84,
+            "Height": 25,
+            "TextId": "__SingleUse_89NM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 242,
+              "Green": 235,
+              "Blue": 235
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage12",
+            "X": 289,
+            "Y": 304,
+            "Width": 36,
+            "Height": 37,
+            "Filename": "itunes.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 344,
+            "Y": 310,
+            "Width": 56,
+            "Height": 25,
+            "TextId": "__SingleUse_VEWH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 237,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "alarm",
+            "X": 714,
+            "Y": 402,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "alarm00.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "close"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "modalWindow1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 196
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 310,
+            "Y": 142,
+            "Width": 180,
+            "Height": 177,
+            "Filename": "skuuta.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionDelay",
+              "Duration": 5000
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "Interaction1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Pot",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen2",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp",
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F769I_DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.1"
+}

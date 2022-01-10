@@ -1,0 +1,12 @@
+STM32TouchController.hpp:34:7:STM32TouchController::~STM32TouchController()	0	static
+STM32TouchController.hpp:34:7:virtual STM32TouchController::~STM32TouchController()	8	static
+STM32TouchController.cpp:205:17:void TS_IO_Init()	0	static
+STM32TouchController.cpp:217:17:void TS_IO_Write(uint8_t, uint8_t, uint8_t)	32	static
+STM32TouchController.cpp:228:20:uint8_t TS_IO_Read(uint8_t, uint8_t)	32	static
+STM32TouchController.cpp:246:21:uint16_t TS_IO_ReadMultiple(uint8_t, uint8_t, uint8_t*, uint16_t)	24	static
+STM32TouchController.cpp:260:17:void TS_IO_WriteMultiple(uint8_t, uint8_t, uint8_t*, uint16_t)	24	static
+STM32TouchController.cpp:270:17:void TS_IO_Delay(uint32_t)	0	static
+STM32TouchController.cpp:282:20:uint8_t BSP_TS_Init(uint16_t, uint16_t)	32	static
+STM32TouchController.cpp:93:6:virtual void STM32TouchController::init()	8	static
+STM32TouchController.cpp:342:16:uint8_t BSP_TS_GetState(TS_StateTypeDef*)	56	static
+STM32TouchController.cpp:107:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	32	static

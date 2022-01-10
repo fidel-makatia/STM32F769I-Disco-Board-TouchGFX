@@ -1,0 +1,49 @@
+Application.hpp:74:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	0	static
+Application.hpp:86:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	0	static
+Drawable.hpp:132:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:298:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:310:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:339:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:351:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:361:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:372:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:383:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:471:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:481:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:568:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Drawable.hpp:683:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Transition.hpp:71:18:virtual void touchgfx::Transition::tearDown()	0	static
+Transition.hpp:79:18:virtual void touchgfx::Transition::init()	0	static
+Transition.hpp:99:18:virtual void touchgfx::Transition::setScreenContainer(touchgfx::Container&)	0	static
+MVPApplication.hpp:43:7:touchgfx::MVPApplication::~MVPApplication()	0	static
+FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	0	static
+NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	0	static
+Widget.hpp:47:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+WipeTransition.hpp:44:11:touchgfx::WipeTransition<touchgfx::SOUTH>::FullSolidRect::~FullSolidRect()	0	static
+WipeTransition.hpp:38:7:touchgfx::WipeTransition<touchgfx::SOUTH>::~WipeTransition()	0	static
+NoTransition.hpp:31:7:touchgfx::NoTransition::~NoTransition()	0	static
+Callback.hpp:424:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	0	static
+WipeTransition.hpp:205:18:void touchgfx::WipeTransition<templateDirection>::tearDown() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	0	static
+WipeTransition.hpp:210:18:void touchgfx::WipeTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	0	static
+WipeTransition.hpp:221:18:void touchgfx::WipeTransition<templateDirection>::invalidate() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	0	static
+WipeTransition.hpp:52:22:void touchgfx::WipeTransition<templateDirection>::FullSolidRect::draw(const touchgfx::Rect&) const [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	0	static
+WipeTransition.hpp:47:22:touchgfx::Rect touchgfx::WipeTransition<templateDirection>::FullSolidRect::getSolidRect() const [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	8	static
+Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	4	static
+Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	0	static
+NoTransition.hpp:31:7:virtual touchgfx::NoTransition::~NoTransition()	8	static
+Callback.hpp:424:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	8	static
+MVPApplication.hpp:43:7:virtual touchgfx::MVPApplication::~MVPApplication()	8	static
+FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	8	static
+WipeTransition.hpp:38:7:virtual touchgfx::WipeTransition<touchgfx::SOUTH>::~WipeTransition()	8	static
+WipeTransition.hpp:44:11:virtual touchgfx::WipeTransition<touchgfx::SOUTH>::FullSolidRect::~FullSolidRect()	8	static
+Transition.hpp:88:18:virtual void touchgfx::Transition::invalidate()	8	static
+MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	8	static
+HAL.hpp:246:17:static touchgfx::LCD& touchgfx::HAL::lcd()	0	static
+WipeTransition.hpp:93:18:void touchgfx::WipeTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	56	static
+FrontendApplicationBase.cpp:19:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	24	static
+FrontendApplicationBase.cpp:36:6:void FrontendApplicationBase::gotoScreen1ScreenWipeTransitionSouth()	0	static
+FrontendApplicationBase.cpp:49:6:void FrontendApplicationBase::gotoScreen2ScreenNoTransition()	0	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen1View; PresenterType = Screen1Presenter; TransType = touchgfx::WipeTransition<touchgfx::SOUTH>; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:42:6:void FrontendApplicationBase::gotoScreen1ScreenWipeTransitionSouthImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = Screen2View; PresenterType = Screen2Presenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:55:6:void FrontendApplicationBase::gotoScreen2ScreenNoTransitionImpl()	16	static

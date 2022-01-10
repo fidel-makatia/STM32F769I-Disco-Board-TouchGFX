@@ -1,0 +1,11 @@
+jquant2.c:225:1:prescan_quantize	28	static
+jquant2.c:1109:1:init_error_limit	16	static
+jquant2.c:1157:1:finish_pass2	0	static
+jquant2.c:1231:1:new_color_map_2_quant	0	static
+jquant2.c:1168:1:start_pass_2_quant	24	static
+jquant2.c:314:1:update_box.isra.0	56	static
+jquant2.c:856:1:fill_inverse_cmap	1496	static
+jquant2.c:916:1:pass2_no_dither	56	static
+jquant2.c:950:1:pass2_fs_dither	152	static
+jquant2.c:1144:1:finish_pass1	112	static
+jquant2.c:1245:1:jinit_2pass_quantizer	24	static

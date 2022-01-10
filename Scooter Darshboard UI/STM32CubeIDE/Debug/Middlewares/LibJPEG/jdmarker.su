@@ -1,0 +1,15 @@
+jdmarker.c:238:1:get_sof	32	static
+jdmarker.c:621:1:examine_app0	24	static
+jdmarker.c:882:1:skip_variable	32	static
+jdmarker.c:911:1:next_marker	24	static
+jdmarker.c:1288:1:reset_marker_reader	0	static
+jdmarker.c:424:1:get_dht	328	static
+jdmarker.c:994:1:read_markers	56	static
+jdmarker.c:697:1:examine_app14	24	static
+jdmarker.c:728:1:get_interesting_appn	48	static
+jdmarker.c:776:1:save_marker	48	static
+jdmarker.c:1159:1:read_restart_marker	8	static
+jdmarker.c:1238:1:jpeg_resync_to_restart	24	static
+jdmarker.c:1308:1:jinit_marker_reader	16	static
+jdmarker.c:1346:1:jpeg_save_markers	8	static
+jdmarker.c:1395:1:jpeg_set_marker_processor	8	static

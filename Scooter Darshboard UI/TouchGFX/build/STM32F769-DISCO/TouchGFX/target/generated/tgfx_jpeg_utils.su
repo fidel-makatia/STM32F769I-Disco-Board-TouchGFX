@@ -1,0 +1,13 @@
+tgfx_jpeg_utils.c:435:17:JPEG_ARGB_MCU_YCbCr420_ConvertBlocks	144	static
+tgfx_jpeg_utils.c:578:17:JPEG_ARGB_MCU_YCbCr422_ConvertBlocks	128	static
+tgfx_jpeg_utils.c:690:17:JPEG_ARGB_MCU_YCbCr444_ConvertBlocks	120	static
+tgfx_jpeg_utils.c:781:17:JPEG_ARGB_MCU_Gray_ConvertBlocks	80	static
+tgfx_jpeg_utils.c:1113:17:TGFX_JPEG_MCU_YCbCr420_ARGB_ConvertBlocks	88	static
+tgfx_jpeg_utils.c:1296:17:JPEG_MCU_YCbCr422_ARGB_ConvertBlocks	96	static
+tgfx_jpeg_utils.c:1424:17:JPEG_MCU_YCbCr444_ARGB_ConvertBlocks	80	static
+tgfx_jpeg_utils.c:1527:17:JPEG_MCU_Gray_ARGB_ConvertBlocks	56	static
+tgfx_jpeg_utils.c:1602:17:JPEG_MCU_YCCK_ARGB_ConvertBlocks	64	static
+tgfx_jpeg_utils.c:869:17:JPEG_ARGB_MCU_YCCK_ConvertBlocks	120	static
+tgfx_jpeg_utils.c:959:19:TGFX_JPEG_GetEncodeColorConvertFunc	20	static
+tgfx_jpeg_utils.c:1694:19:TGFX_JPEG_GetDecodeColorConvertFunc	20	static
+tgfx_jpeg_utils.c:1824:6:TGFX_JPEG_InitColorTables	36	static

@@ -1,0 +1,5 @@
+jctrans.c:221:1:start_iMCU_row	0	static
+jctrans.c:249:1:start_pass_coef	16	static
+jctrans.c:272:1:compress_output	152	static
+jctrans.c:39:1:jpeg_write_coefficients	16	static
+jctrans.c:64:1:jpeg_copy_critical_parameters	48	static
